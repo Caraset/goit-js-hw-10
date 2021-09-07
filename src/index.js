@@ -74,9 +74,9 @@ function makeOneCountryMarkUp(arr) {
         <h1 class="country-info__name">Name: ${obj.name}</h1>
       </div>
       <ul class="country-properties">
-        <li class="country-properties__item">Capital: ${obj.capital}</li>
-        <li class="country-properties__item">Population: ${obj.population}</li>
-        <li class="country-properties__item">Languages: ${obj.languages
+        <li class="country-properties__item"><b>Capital:</b> ${obj.capital}</li>
+        <li class="country-properties__item"><b>Population:</b> ${obj.population}</li>
+        <li class="country-properties__item"><b>Languages:</b> ${obj.languages
           .map(el => el.name)
           .join(', ')}</li>
       </ul>
